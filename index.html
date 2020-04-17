@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+  <div class="container">
+    <p>
+      <label for="new-task">Add Item</label>
+      <input id="new-task" type="text">
+      <button>Add</button>
+    </p>
+    <h3>Todo</h3>
+    <ul id="incomplete-tasks">
+      <li>
+        <input type="checkbox">
+        <label>付信用卡費</label>
+        <button class="delete">Delete</button>
+      </li>
+      <li>
+        <input type="checkbox">
+        <label>還書</label>
+        <button class="delete">Delete</button>
+      </li>
+    </ul>
+    <h3>Completed</h3>
+    <ul id="completed-tasks">
+      <li>
+        <input type="checkbox" checked>
+        <label>買衛生紙</label>
+        <input type="text">
+        <button class="delete">Delete</button>
+      </li>
+    </ul>
+  </div>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
