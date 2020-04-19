@@ -1,4 +1,3 @@
-//document.getElementById('addTask').addEventListener('click', addTodoItems);
 document.getElementById('new-task').addEventListener('keypress', pressEnter);
 document.addEventListener('click' , clickHandler);
 
